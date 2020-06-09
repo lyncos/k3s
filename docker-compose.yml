@@ -22,6 +22,8 @@ services:
     ports:
     - 6443:6443
 
+
+
   agent:
     image: "rancher/k3s:${K3S_VERSION:-latest}"
     tmpfs:
